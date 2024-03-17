@@ -8,7 +8,7 @@ import { userAttemptsModel } from '../models/user_attempts.js'
 //dotenv.config()
 
 const signup = async (req, res, next) => {
-
+    console.log("request sign in");
     let token
     let existingUser
     let hashedPassword
